@@ -1,0 +1,5 @@
+package me.salmonmoses.result.interfaces;
+
+public interface ThrowingFunction<T, R, E extends Throwable> {
+	R apply(T t) throws E;
+}
